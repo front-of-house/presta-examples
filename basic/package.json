@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "basic",
+  "scripts": {
+    "start": "npm run build && npx presta watch Home.js",
+    "build": "npx presta build Home.js",
+    "serve": "npx presta serve"
+  },
+  "author": "sure-thing",
+  "license": "MIT",
+  "dependencies": {
+    "presta": "^0.14.1"
+  }
+}
