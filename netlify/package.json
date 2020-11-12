@@ -1,0 +1,38 @@
+{
+  "name": "presta-netlify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "npx netlify dev",
+    "build": "npx presta build && npx webpack",
+    "server:watch": "npx webpack -w",
+    "static:watch": "npx presta watch",
+    "format": "prettier-standard --format"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sure-thing/presta-netlify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sure-thing/presta-netlify/issues"
+  },
+  "homepage": "https://github.com/sure-thing/presta-netlify#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "netlify-cli": "^2.63.3",
+    "prettier-standard": "^16.4.1",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "hypobox": "^1.2.1",
+    "hyposcript": "^1.0.1",
+    "presta": "^0.14.1"
+  }
+}
