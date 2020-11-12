@@ -1,11 +1,17 @@
-# basic
+# react
 
-Pretty much as basic as it gets.
+Bare bones example of Presta with React.
+
+## Overview
+
+Since we need to define a custom renderer in `presta.config.js`, we might as
+well define our `pages` there too. This means you don't have to specify page
+paths on the CLI.
 
 ### Development
 
 ```
-npx presta watch Home.js
+npx presta watch
 ```
 
 Or for convenience:
@@ -17,7 +23,7 @@ npm start
 ### Production
 
 ```
-npx presta build Home.js
+npx presta build
 ```
 
 Or for convenience:
