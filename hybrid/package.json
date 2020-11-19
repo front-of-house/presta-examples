@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "name": "basic",
+  "scripts": {
+    "start": "npm run build && npx presta watch"
+  },
+  "author": "sure-thing",
+  "license": "MIT",
+  "dependencies": {
+    "presta": "^0.17.0-beta1"
+  }
+}
