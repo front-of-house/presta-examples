@@ -2,11 +2,14 @@
   "private": true,
   "name": "basic",
   "scripts": {
-    "start": "npm run build && npx presta watch"
+    "start": "npm run build && npx presta watch",
+    "build": "npx presta build"
   },
   "author": "sure-thing",
   "license": "MIT",
   "dependencies": {
-    "presta": "^0.17.0-beta1"
+    "hypobox": "^1.2.1",
+    "hyposcript": "^1.0.1",
+    "presta": "^0.17.1"
   }
 }

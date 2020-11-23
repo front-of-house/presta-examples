@@ -3,13 +3,12 @@
   "name": "react",
   "scripts": {
     "start": "npm run build && npx presta watch",
-    "build": "npx presta build",
-    "serve": "npx presta serve"
+    "build": "npx presta build"
   },
   "author": "sure-thing",
   "license": "MIT",
   "dependencies": {
-    "presta": "^0.16.0"
+    "presta": "^0.17.1"
   },
   "devDependencies": {
     "@babel/preset-react": "^7.12.5",

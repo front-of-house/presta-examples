@@ -32,18 +32,6 @@ Or for convenience:
 npm run build
 ```
 
-And to serve:
-
-```
-npx serve
-```
-
-Or:
-
-```
-npm run serve
-```
-
 ### License
 
 MIT License © [Sure Thing](https://github.com/sure-thing)

@@ -1,14 +1,13 @@
 import { document } from 'presta/document'
 import { getCss } from 'hypobox'
 
-import { globalStyle } from '@/lib/globalStyle'
-
 export const pages = './pages/**/*.js'
 
 export function createDocument ({ body, data }) {
   return document({
     head: {
-      style: [{ children: globalStyle }, { children: getCss() }]
+      link: [{ rel: 'stylesheet', href: '/style.css' }],
+      style: [{ children: getCss() }]
     },
     body,
     foot: {

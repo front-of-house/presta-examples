@@ -1,6 +1,6 @@
 # hybrid
 
-WIP example of a site built partially static, partially dynamic.
+A basic example of a site built partially static, partially dynamic.
 
 Available routes out of the box:
 - `/` static route
@@ -16,7 +16,9 @@ npm start
 
 ### Production
 
-TBD
+```
+npm run build
+```
 
 ### License
 

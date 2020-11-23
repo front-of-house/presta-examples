@@ -3,12 +3,11 @@
   "name": "basic",
   "scripts": {
     "start": "npm run build && npx presta watch Home.js",
-    "build": "npx presta build Home.js",
-    "serve": "npx presta serve"
+    "build": "npx presta build Home.js"
   },
   "author": "sure-thing",
   "license": "MIT",
   "dependencies": {
-    "presta": "^0.16.0"
+    "presta": "^0.17.1"
   }
 }
