@@ -3,11 +3,11 @@ import { Box } from 'hypobox'
 
 import { Nav } from '@/components/Nav'
 
-export function getPaths() {
+export function getStaticPaths() {
   return ['/']
 }
 
-export function Page() {
+export function template() {
   return (
     <>
       <Nav />

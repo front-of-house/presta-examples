@@ -5,16 +5,17 @@ import { Nav } from '@/components/Nav'
 
 export const route = '/:slug'
 
-export function Page ({ pathname, head }) {
-  head({ title: pathname })
+export function template (ctx) {
+  ctx.head({ title: ctx.path })
 
   return (
     <>
-      <Nav activePath={pathname} />
+      <Nav activePath={ctx.path} />
 
       <Box as='h1' mt={3}>
-        This is server-rendered. You're on {pathname}
+        This is server-rendered. You're on {ctx.path}
       </Box>
+      <Box as="pre">{JSON.stringify(ctx, null, '  ')}</Box>
     </>
   )
 }

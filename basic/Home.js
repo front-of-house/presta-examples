@@ -1,8 +1,7 @@
-export function getPaths() {
+export function getStaticPaths() {
   return ['/']
 }
 
-export function Page() {
+export function template() {
   return '<h1>Presta</h1>'
 }
-

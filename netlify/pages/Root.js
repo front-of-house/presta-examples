@@ -4,11 +4,11 @@ import { load } from 'presta/load'
 
 import { Nav } from '@/components/Nav'
 
-export function getPaths () {
+export function getStaticPaths () {
   return ['/']
 }
 
-export function Page ({ pathname, head }) {
+export function template ({ pathname, head }) {
   const page = load(
     () => {
       return new Promise(y => {

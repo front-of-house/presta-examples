@@ -3,7 +3,7 @@ import { getCss } from 'hypobox'
 
 export const pages = 'pages/**/*.js'
 
-export function createDocument(context) {
+export function createContent(context) {
   return document(context, {
     head: {
       link: [

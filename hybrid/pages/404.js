@@ -5,14 +5,14 @@ import { Nav } from '@/components/Nav'
 
 export const route = '*'
 
-export function createResponse({ result, ...props }) {
+export function createResponse(context, response) {
   return {
-    ...result,
+    ...response,
     statusCode: 404,
   }
 }
 
-export function Page() {
+export function template() {
   return (
     <>
       <Nav />
