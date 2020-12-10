@@ -8,6 +8,6 @@
   "author": "sure-thing",
   "license": "MIT",
   "dependencies": {
-    "presta": "^0.21.2"
+    "presta": "^0.21.3"
   }
 }
