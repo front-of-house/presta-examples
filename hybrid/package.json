@@ -10,6 +10,6 @@
   "dependencies": {
     "hypobox": "^1.2.1",
     "hyposcript": "^1.0.1",
-    "presta": "^0.18.0"
+    "presta": "^0.21.2"
   }
 }

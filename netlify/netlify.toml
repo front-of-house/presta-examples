@@ -4,5 +4,5 @@
 
 [[redirects]]
   from = "/*"
-  to = "/.netlify/functions/pages"
+  to = "/.netlify/functions/presta"
   status = 200

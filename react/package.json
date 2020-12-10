@@ -8,7 +8,7 @@
   "author": "sure-thing",
   "license": "MIT",
   "dependencies": {
-    "presta": "^0.18.0"
+    "presta": "^0.21.2"
   },
   "devDependencies": {
     "@babel/preset-react": "^7.12.5",

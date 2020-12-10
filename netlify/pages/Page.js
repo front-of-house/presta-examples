@@ -3,8 +3,6 @@ import { Box } from 'hypobox'
 
 import { Nav } from '@/components/Nav'
 
-export const route = '/:slug'
-
 export function template (ctx) {
   ctx.head({ title: ctx.path })
 
