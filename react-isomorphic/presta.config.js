@@ -14,8 +14,8 @@ export function render(Template, context) {
 
 export function createContent(context) {
   return document({
-    head: context.head,
-    body: context.content,
+    head: context.props.head,
+    body: context.props.content,
     foot: {
       script: [
         { src: '/client.js' }
