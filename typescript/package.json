@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "basic",
+  "scripts": {
+    "start": "npm run build && npx presta watch Home.ts",
+    "build": "npx presta build Home.ts"
+  },
+  "author": "sure-thing",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/preset-typescript": "^7.12.7",
+    "presta": "^0.25.0"
+  }
+}

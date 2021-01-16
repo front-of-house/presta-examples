@@ -18,7 +18,7 @@ export function createContent(context) {
     body: context.props.content,
     foot: {
       script: [
-        { src: '/client.js' }
+        // { src: '/client.js' }
       ]
     }
   })
