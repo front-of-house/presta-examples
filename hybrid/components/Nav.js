@@ -1,14 +1,14 @@
 import { h } from 'hyposcript'
-import { Box } from 'hypobox'
 
 export function Nav() {
   return (
-    <Box px={8} py={4} f aic>
-      <Box as="a" href="/" mr={4}>Home</Box>
-      <Box as="a" href="/about" mr={4}>About</Box>
-      <Box as="a" href="/contact" mr={4}>Contact</Box>
-      <Box as="a" href="/posts/one" mr={4}>First Post</Box>
-      <Box as="a" href="/foo/bar/baz" mr={4}>Not Found</Box>
-    </Box>
+    <div style='display: flex'>
+      <a href="/" mr={4}>Home</a>
+      <a href="/about" mr={4}>About</a>
+      <a href="/contact" mr={4}>Contact</a>
+      <a href="/posts/one" mr={4}>First Post</a>
+      <a href="/foo/bar/baz" mr={4}>Not Found</a>
+      <a href="/api/debug" mr={4}>Debug Context</a>
+    </div>
   )
 }

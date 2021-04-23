@@ -1,5 +1,4 @@
 import { h } from 'hyposcript'
-import { Box } from 'hypobox'
 
 import { Nav } from '@/components/Nav'
 
@@ -11,17 +10,17 @@ export function getStaticPaths() {
   ]
 }
 
-export function template(ctx) {
+export function handler(ctx) {
   const isAbout = /about$/.test(ctx.path)
 
   return (
     <>
       <Nav />
-      <Box p={8}>
-        <Box as="h1">{isAbout ? 'About' : `Page - ${ctx.path}`}</Box>
-        <Box as="p">This page is {isAbout ? 'statically' : 'dynamically'} rendered</Box>
-        <Box as="pre">{JSON.stringify(ctx, null, '  ')}</Box>
-      </Box>
+      <div>
+        <h1>{isAbout ? 'About' : `Page - ${ctx.path}`}</h1>
+        <p>This page is {isAbout ? 'statically' : 'dynamically'} rendered</p>
+        <pre>{JSON.stringify(ctx, null, '  ')}</pre>
+      </div>
     </>
   )
 }

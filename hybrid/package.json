@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "basic",
+  "name": "hybrid",
   "scripts": {
     "start": "npm run build && npx presta watch",
     "build": "npx presta build"
@@ -8,8 +8,8 @@
   "author": "sure-thing",
   "license": "MIT",
   "dependencies": {
-    "hypobox": "^1.2.1",
+    "@babel/preset-react": "^7.12.10",
     "hyposcript": "^1.0.1",
-    "presta": "^0.21.3"
+    "presta": "^0.27.0-beta.2"
   }
 }

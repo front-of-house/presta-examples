@@ -1,25 +1,20 @@
 import { h } from 'hyposcript'
-import { Box } from 'hypobox'
 
 import { Nav } from '@/components/Nav'
 
 export const route = '*'
 
-export function createResponse(context, response) {
+export function handler() {
   return {
-    ...response,
     statusCode: 404,
+    body: (
+      <>
+        <Nav />
+        <div>
+          <h1>404</h1>
+          <p>This page is dynamically rendered</p>
+        </div>
+      </>
+    ),
   }
-}
-
-export function template() {
-  return (
-    <>
-      <Nav />
-      <Box p={8}>
-        <Box as="h1">404</Box>
-        <Box as="p">This page is dynamically rendered</Box>
-      </Box>
-    </>
-  )
 }
