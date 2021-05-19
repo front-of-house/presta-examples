@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "markdown",
+  "scripts": {
+    "start": "npm run build && npx presta watch",
+    "build": "npx presta build"
+  },
+  "author": "sure-thing",
+  "license": "MIT",
+  "dependencies": {
+    "marked": "^2.0.3",
+    "presta": "^0.31.0-beta.2"
+  }
+}
